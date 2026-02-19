@@ -1,6 +1,6 @@
 FROM tomcat:10.1-jdk21
 
-COPY BitcoinTracker.war /usr/local/tomcat/webapps/
+COPY ROOT.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
